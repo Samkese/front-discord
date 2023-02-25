@@ -1,0 +1,39 @@
+body{
+   background-color: #f6f6f6; 
+}
+
+.contpag2 {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+
+ padding: 50px 0px;
+}
+
+.contpag2 > img {
+
+}
+
+.pag-texto2 {
+display: flex;
+flex-direction: column;
+width: 350px;
+
+}
+
+.pag-texto2 h1 {
+font: 50px 'discord5';
+color: #000;
+line-height: 60px;
+margin-bottom: 22px;
+}
+
+.pag-texto2 p {
+font: 20px 'discord2';
+color: #000;
+line-height: 32px;
+}
+
+.contpag2 > * {
+   margin: 0px 50px; 
+}
