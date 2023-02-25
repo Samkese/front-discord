@@ -8,10 +8,32 @@ body{
  display: flex;
  flex-direction: column;
  align-items: center;
- padding: 10px 0px 131px 0px;
+ padding: 25px 0px 131px 0px;
  background-image: url('../../assets/images/fundo.svg');
  color: #f6f6f6;
  background-color: #404eed;
+ background-size: cover;
+ background-position: -430px 0px;
+
+ position: relative;
+ overflow: hidden;
+}
+
+.contpag1 > a {
+  cursor: pointer;
+  transition: 0.3;
+}
+ 
+.p1-tenis{
+ position: absolute;
+ bottom: 0px;
+ left: -150px;
+}
+
+.p1-suco {
+ position: absolute;
+ bottom: 0px;
+ right: -100px;
 }
 
 .p1-cabecalho {
@@ -22,6 +44,24 @@ body{
  width: 1280px;
 
  margin-bottom: 140px;
+}
+
+.p1-cabecalho > a {
+   font: 14px 'discord3';   
+   background-color: #f6f6f6;
+   color: #23272a;
+   padding: 10px 13px;
+   border-radius: 30px;
+   
+   margin: 0px 10px;
+   display: flex;
+   align-items: center;
+   transition: 0.3s;
+}
+
+.p1-cabecalho > a:hover {
+   box-shadow: 0px 8px 15px #1b1919;
+   color: #5865f2;
 }
 
 .contpag1 > h1 {
@@ -41,13 +81,19 @@ body{
  margin-bottom: 30px;
 }
 
+
 .p1-menu {
 display: flex;
 flex-direction: row;
 }
 
 .p1-menu a {
+   font: 16px 'discord4';
    margin: 5px 20px;
+}
+
+.p1-menu a:hover {
+   text-decoration: underline;
 }
 
 .p1-botoes {
@@ -66,16 +112,26 @@ border-radius: 30px;
 margin: 0px 10px;
 display: flex;
 align-items: center;
+transition: 0.3s;
 }
 
+.p1-botoes > a:hover {
+   box-shadow: 0px 8px 15px #1b1919;
+   color: #5865f2;
+}
 .p1-escuro {  
    background-color:#23272a !important;
    color: #f6f6f6 !important;
    }
 
+.p1-escuro:houver {
+  background-color: #201e1e !important;
+}   
+
 .p1-botoes > a > svg {
    margin-right: 10px;
 }   
+
 /* Sesao-p2 */
 
 .contpag2 {
@@ -109,3 +165,38 @@ line-height: 32px;
 .contpag2 > * {
    margin: 0px 50px; 
 }
+
+/* Sesao-p3 */
+
+.contpag3 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   background-color: #eeeeee;
+
+   padding: 90px 0px;
+  }
+  
+  .pag-texto3 {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  
+  }
+  
+  .pag-texto3 h1 {
+  font: 50px 'discord5';
+  color: #000;
+  line-height: 60px;
+  margin-bottom: 22px;
+  }
+  
+  .pag-texto3 p {
+  font: 20px 'discord2';
+  color: #000;
+  line-height: 32px;
+  }
+  
+  .contpag3 > * {
+     margin: 0px 50px; 
+  }
